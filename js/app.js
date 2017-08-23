@@ -1,3 +1,4 @@
+
 const horario = document.querySelector('.horario');
 const minutero = document.querySelector('.minutero');
 const segundero = document.querySelector('.segundero');
@@ -18,4 +19,5 @@ function fijarAgujas() {
 	segundero.style.transform = `rotate(${gradosSegundos}deg)`;
 }
 
+fijarAgujas();
 setInterval(fijarAgujas, 1000);
